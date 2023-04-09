@@ -1,0 +1,32 @@
+{
+  "name": "mac_encrypt",
+  "version": "1.1.3",
+  "description": "Cipher with aes-cmac and compute MAC for CAN/Eth frames and SHE cmd args",
+  "main": "MAC_encrypt.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcoscali/MAC_encrypt.git"
+  },
+  "keywords": [
+    "SHE",
+    "CAN",
+    "Ethernet",
+    "AES-CMAC",
+    "AUTOSAR",
+    "MAC"
+  ],
+  "author": "Rémi COHEN SCALI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcoscali/MAC_encrypt/issues"
+  },
+  "homepage": "https://github.com/rcoscali/MAC_encrypt#readme",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "miyaguchipreneel": "^1.1.4",
+    "node-aes-cmac": "^0.1.1"
+  }
+}
